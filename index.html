@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thermostat</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="src/thermostat.js"></script>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="interface.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="box_1">
+        <h1>Thermostat</h1>
+        <label for="current_city">Select city</label>
+        <select id="current_city">
+            <option value="london">London</option>
+            <option value="West New York">New York</option>
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+        </select>
+        <h3>Weather outside in</h3>
+        <div class="intro"><div id="location"></div> <div id="outside_temperature"></div></div>
+        <div class="controls" style="position: relative;">
+            <div class="temperature_bar" style="margin: 0 auto;" id="temperature_bar"></div>
+            <button class="dot" id="increase">Increase temperature</button>
+            <button class="dot" id="decrease">Decrease temperature</button>
+            <button class="dot" id="reset">Reset temperature</button>
+            <button class="dot" id="toggle">Toggle PowerSaving</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

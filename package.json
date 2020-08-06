@@ -2,7 +2,9 @@
   "name": "Thermostat",
   "version": "1.0.0",
   "dependencies": {
-    
+    "jquery": "^3.5.1"
   },
-  "scripts": { "test": "jasmine" }
+  "scripts": {
+    "test": "jasmine"
+  }
 }
