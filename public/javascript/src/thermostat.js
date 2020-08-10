@@ -50,9 +50,3 @@ class Thermostat {
     }
 
 }
-
-//thermostat = new Thermostat()
-//thermostat.togglePowerSavings();
-//thermostat.up(15);
-//thermostat.togglePowerSavings();
-//console.log(thermostat.maxTemp);

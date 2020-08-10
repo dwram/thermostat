@@ -5,6 +5,6 @@
     "jquery": "^3.5.1"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "public/javascript/jasmine"
   }
 }

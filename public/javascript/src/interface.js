@@ -41,8 +41,8 @@ $( document ).ready(function() {
     });
 
     function displayWeather(city) {
-        let url = "http://api.openweathermap.org/data/2.5/weather?q="
-        let units = "&units=metric"
+        let url = "http://api.openweathermap.org/data/2.5/weather?q=";
+        let units = "&units=metric";
         let token = "&appid=14edc0f8ceb66aa0deac044d2f036d84";
         $.get(url + city + units + token, function(response){
             let outside_temperature = response['main']['temp'] + " °C";
