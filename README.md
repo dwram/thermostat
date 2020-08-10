@@ -1,4 +1,4 @@
-#Thermostat
+<h1>Thermostat</h1>
 
 <img src="https://i.gyazo.com/9609c746fcb87066fbda119e6eee2990.png">
 
@@ -6,8 +6,7 @@
   <source src="https://i.gyazo.com/9b1aed84253768ceed480716658df0fe.mp4" type="video/mp4">
 </video>
 
-###Specification
-Specification:
+<h3>Specification</h3>
 
 - Thermostat starts at 20 degrees
 - Increase the temperature with an up function
@@ -19,7 +18,7 @@ Specification:
 - Reset the temperature to 20 with a reset function
 - View thermostat's current energy usage: < 18 is low-usage, <= 25 is medium-usage, anything else is high-usage.
 
-###Technologies/Techniques used
+<h3>Technologies/Techniques used</h3>
 
 
 - Javascript
